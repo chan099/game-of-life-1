@@ -495,4 +495,15 @@
             </reporting>
         </profile>
     </profiles>
+    <distributionManagement>
+  <snapshotRepository>
+    <id>avokodo_snapshot</id>
+    <url>http://localhost:8081/nexus/content/repositories/avokodo_snapshot</url>
+  </snapshotRepository>
+  <repository>
+    <id>avokodo_release</id>
+    <url>http://localhost:8081/nexus/content/repositories/avokodo_release</url>
+  </repository>
+</distributionManagement>
 </project>
+
